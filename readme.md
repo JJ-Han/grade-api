@@ -138,3 +138,113 @@ example designed with Clean Architecture in mind. You might find it useful to re
 code base after to see what parts align with Clean Architecture and which parts do not.
 
 (/calendar_get.jpg?raw=true "Calendar: get")
+```json
+{
+    "kind": "calendar#calendarList",
+    "etag": "\"p33sbd37hrrao20o\"",
+    "nextSyncToken": "CPi2jPHe1YEDEhhqYWVqb29uLmpqLmhhbkBnbWFpbC5jb20=",
+    "items": [
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1646772695781000\"",
+            "id": "jaejoon.jj.han@gmail.com",
+            "summary": "jaejoon.jj.han@gmail.com",
+            "timeZone": "America/Toronto",
+            "colorId": "14",
+            "backgroundColor": "#9fe1e7",
+            "foregroundColor": "#000000",
+            "selected": true,
+            "accessRole": "owner",
+            "defaultReminders": [
+                {
+                    "method": "popup",
+                    "minutes": 30
+                }
+            ],
+            "notificationSettings": {
+                "notifications": [
+                    {
+                        "type": "eventCreation",
+                        "method": "email"
+                    },
+                    {
+                        "type": "eventChange",
+                        "method": "email"
+                    },
+                    {
+                        "type": "eventCancellation",
+                        "method": "email"
+                    },
+                    {
+                        "type": "eventResponse",
+                        "method": "email"
+                    }
+                ]
+            },
+            "primary": true,
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        },
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1696192708339000\"",
+            "id": "addressbook#contacts@group.v.calendar.google.com",
+            "summary": "Birthdays",
+            "description": "Displays birthdays, anniversaries, and other event dates of people in Google Contacts.",
+            "timeZone": "America/Toronto",
+            "colorId": "13",
+            "backgroundColor": "#92e1c0",
+            "foregroundColor": "#000000",
+            "selected": true,
+            "accessRole": "reader",
+            "defaultReminders": [],
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        },
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1696193527337000\"",
+            "id": "en.canadian#holiday@group.v.calendar.google.com",
+            "summary": "Holidays in Canada",
+            "description": "Holidays and Observances in Canada",
+            "timeZone": "America/Toronto",
+            "colorId": "15",
+            "backgroundColor": "#9fc6e7",
+            "foregroundColor": "#000000",
+            "selected": true,
+            "accessRole": "reader",
+            "defaultReminders": [],
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        },
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1696193929569000\"",
+            "id": "d823735b3ebceb4f532f389774e3a3052897c18e45eec4c78762bee63f68f601@group.calendar.google.com",
+            "summary": "Test Calendar",
+            "description": "testing",
+            "timeZone": "America/Toronto",
+            "colorId": "12",
+            "backgroundColor": "#fad165",
+            "foregroundColor": "#000000",
+            "selected": true,
+            "accessRole": "owner",
+            "defaultReminders": [],
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        }
+    ]
+}
+```
