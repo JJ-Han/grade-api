@@ -137,4 +137,4 @@ In lecture this week, we will finish our initial tour of Clean Architecture with
 example designed with Clean Architecture in mind. You might find it useful to revisit this
 code base after to see what parts align with Clean Architecture and which parts do not.
 
-![test1 test 1](/calendar_get.jpg?raw=true "TEST TEST")
+(/calendar_get.jpg?raw=true "Calendar: get")
