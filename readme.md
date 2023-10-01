@@ -136,3 +136,5 @@ make the code better? How easy would it be to implement new functionality into t
 In lecture this week, we will finish our initial tour of Clean Architecture with a full
 example designed with Clean Architecture in mind. You might find it useful to revisit this
 code base after to see what parts align with Clean Architecture and which parts do not.
+
+![Alt text](/calendar_get.jpg?raw=true "Optional Title")
